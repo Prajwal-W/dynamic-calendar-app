@@ -14,13 +14,14 @@ Clone the repository to your local machine:
    git clone https://github.com/Prajwal-W/dynamic-calendar-app.git
 
 Navigate to the project directory:
-cd dynamic-calendar-app
+``` cd dynamic-calendar-app ```
 
 Install the required dependencies:
-npm install
+``` npm install ```
 
 Start the development server:
-npm start
+``` npm start ```
+
 Open your web browser and navigate to http://localhost:3000 to view the app.
 
 Usage
@@ -30,21 +31,22 @@ The selected date will be highlighted in the calendar.
 The current date of the displayed month will also be highlighted.
 
 Technologies Used
-React
-react-testing-library (for testing)
-Babel
-Webpack
-Date-fns (for date manipulation)
+- React
+- react-testing-library (for testing)
+- Babel
+- Webpack
+- Date-fns (for date manipulation)
+  
 Project Structure
-src/ - Contains the source code files.
-App.js - Main application component that includes the input box and the Calendar component.
-Calendar.js - Reusable calendar component that displays the calendar based on the selected date.
-Calendar.css - Styles for the calendar component.
+- src/ - Contains the source code files.
+- App.js - Main application component that includes the input box and the Calendar component.
+- Calendar.js - Reusable calendar component that displays the calendar based on the selected date.
+- Calendar.css - Styles for the calendar component.
 ... (other files)
-public/ - Contains the HTML file and other static assets.
-tests/ - Contains test files for the components.
+- public/ - Contains the HTML file and other static assets.
+- tests/ - Contains test files for the components.
 
 Testing
 This project includes unit tests to ensure the functionality of the components. To run the tests, use the following command:
-npm test
+``` npm test ```
 
